@@ -1,0 +1,8 @@
+<div>
+  <sui-search placeholder="Example Search..."
+              ></sui-search>
+  <div *ngFor="let item of items | async">
+    {{item?.title}}
+  </div>
+</div>
+
